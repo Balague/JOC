@@ -4,7 +4,7 @@ extends TextureButton
 # var a = 2
 # var b = "text"
 
-var escena_mapa = preload("res://mapa.tscn")
+var torna = preload("res://mapa1.tscn")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -16,4 +16,4 @@ func _ready():
 
 
 func _on_TextureButton_pressed():
-	get_tree().change_scene_to(escena_mapa)
+	get_tree().change_scene_to(torna)
